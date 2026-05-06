@@ -9,23 +9,37 @@
 ## 1. nmap Scan
 ![Nmap](nmap.png)
 
+
 ## 2. sql injection
+while testing the login for, an sql error was returned.
+this indicates user input is being directly inserted into a query, confirming a potential injection point
 ![sql error](MYSQL-error.png)
 
 ## 3. login Bypass 
+using sql injection, authentication was bypass with : 'or1=1--
+this allows login without valid credentials
 ![login](login-bypass.jpeg)
 
 ## 4. base64 Credentials
+discovered credentials were encoded using base64
+after decoding:
+james:canttouchthis@455152
+cameron:thiscantbetouched@455152
 1[Base64](base64-decoded.png)
 
 ## 5. SSH ACCESS
+used discovered credentials to gain SSH access as james
 ![SSH](ssh-access.png)
 
 ## 6. Privilege escalation
+checked sudo permissions:
+user can run tar as root
 ![sudo](sudo-1.peg)
+exploited using GTFObins tar technique:
 ![Tar](tar-exploit.png)
 
 ## 7. Root
+spawned root shell and verified:
 ![Root](root-shell.png
 
 ## 🔍 Enumeration
