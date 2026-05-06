@@ -33,7 +33,7 @@ This indicates that user input is being directly inserted into a query without p
 Using SQL injection, authentication was bypassed with:
 
 ```
-'or 1=1--
+'or ''='--
 ```
 
 This forces the query to always evaluate as true, allowing login without valid credentials.
