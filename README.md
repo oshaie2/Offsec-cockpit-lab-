@@ -6,6 +6,27 @@
 - Methodology: Enumeration → Exploitation → Privilege Escalation
 
 ---
+## 1. nmap Scan
+![Nmap](nmap.png)
+
+## 2. sql injection
+![sql error](mysql-error.png)
+
+## 3. login Bypass 
+![login](login-bypass.jpeg)
+
+## 4. base64 Credentials
+1[Base64](base64-decoded.png)
+
+## 5. SSH ACCESS
+![SSH](ssh-access.png)
+
+## 6. Privilege escalation
+![sudo](sudo-1.peg)
+![Tar](tar-exploit.png)
+
+## 7. Root
+![Root](root-shell.png
 
 ## 🔍 Enumeration
 
