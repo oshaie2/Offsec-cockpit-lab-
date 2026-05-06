@@ -10,7 +10,7 @@
 ![Nmap](nmap.png)
 
 ## 2. sql injection
-![sql error](mysql-error.png)
+![sql error](MYSQL-error.png)
 
 ## 3. login Bypass 
 ![login](login-bypass.jpeg)
